@@ -1,0 +1,50 @@
+body{
+    background-color: black ;
+    color: white;
+    text-align: center;
+}
+.search{
+    padding: 40px;
+    text-align: left;
+}
+.search-bar{
+    background-color: #f9f7fe;
+    border: none;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    padding: 20px;
+    width: 50%;
+    border-radius: 6px;
+    justify-content: left;
+}
+.search-button{
+    margin-left: 5px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 20px;
+    line-height: 1;
+    border-radius: 5px;
+    justify-content: left;
+}
+.Paris{
+    font-size: 60px;
+}
+.temp{
+    font-size: 50px;
+}
+.time{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.details{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.footer{
+    justify-content: last baseline;
+    position: flex;
+}
