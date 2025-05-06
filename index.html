@@ -5,21 +5,26 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <title>Weather App</title>
 </head>
+<style></style>
 <body>
-  
-<form action="/submit">
-    <input type="text" value="Type a city..." required />
-    <input type="submit" value="Search" />
+<form class="search" action="/submit">
+    <input class= "search-bar" type="text" value="Type a city..." required />
+    <input class= "search-button" type="submit" value="Search" />
 </form>
-<h1>Paris</h1>
-<h2>☀️78°F☀️</h2>
-<p>  Wednesday 1:30
+<div class="container">
+<h1 class="Paris">Paris</h1>
+<h2 class="temp">☀️78°F☀️</h2>
+<p> <span class="time">Wednesday 1:30</span>
     <br />
-    Humidity:34% Wind 8.5 mph
+    <span class="details">Humidity: <strong>34%</strong>  Wind: <strong>8.5 mph</strong></span>
 </p>
+</div> 
 </body>
-<footer>  Coded by Jaslyn Woods </footer>
+<br/>
+<br/>
+<footer class="footer">  Coded by Jaslyn Woods </footer>
 </html>
