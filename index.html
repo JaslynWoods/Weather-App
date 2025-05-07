@@ -7,17 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
   <title>Weather App</title>
 </head>
 <style></style>
 <body>
-<form class="search" action="/submit">
-    <input class= "search-bar" type="text" value="Type a city..." required />
+<form class="search" action="/submit" id="search-form">
+    <input class= "search-bar" type="text" id="search-input" value="Type a city..." required />
     <input class= "search-button" type="submit" value="Search" />
 </form>
 <div class="container">
-<h1 class="Paris">Paris</h1>
-<h2 class="temp">☀️78°F☀️</h2>
+<h1 id="paris" class="Paris">Paris</h1>
+<h2 class="temp">☀️
+  <span id="temp">
+    78°F
+  </span>
+  ☀️</h2>
 <p> <span class="time">Wednesday 1:30</span>
     <br />
     <span class="details">Humidity: <strong>34%</strong>  Wind: <strong>8.5 mph</strong></span>
@@ -27,4 +32,5 @@
 <br/>
 <br/>
 <footer class="footer">  Coded by Jaslyn Woods </footer>
+<script src= "script.js"></script>
 </html>
